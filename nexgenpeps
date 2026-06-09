@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexGen Peps</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#111;
+    color:#eee;
+    margin:0;
+}
+header{
+    background:#000;
+    text-align:center;
+    padding:60px 20px;
+}
+h1{
+    font-size:3rem;
+    margin:0;
+}
+.card{
+    background:#1c1c1c;
+    padding:20px;
+    border-radius:10px;
+    margin:10px 0;
+}
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+.btn{
+    display:inline-block;
+    padding:12px 20px;
+    background:#444;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>NexGen Peps</h1>
+    <p>Research Peptide Supply</p>
+    <a href="#products" class="btn">View Catalog</a>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <div class="card">
+        Laboratory research materials.
+    </div>
+</section>
+
+<section id="products">
+    <h2>Featured Categories</h2>
+    <div class="card">Growth Hormone Research</div>
+    <div class="card">Metabolic Research</div>
+    <div class="card">Longevity Research</div>
+</section>
+
+<footer>
+    <p>© NexGen Peps. Research Use Only.</p>
+</footer>
+
+</body>
+</html> 
